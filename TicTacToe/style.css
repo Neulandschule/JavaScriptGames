@@ -1,0 +1,48 @@
+
+#game {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 800px;
+  margin: 10px auto;
+}
+
+#head_menu {
+  display: flex;
+}
+
+#head_menu > div {
+  width: 100%;
+}
+
+#next {
+  max-width: 20px;
+}
+
+
+.grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 800px;
+  margin: 10px auto;
+  background-color: black;
+}
+
+.grid > div {
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+.gray {
+  background-color: #ccc;
+}
+
+.green {
+  background-color: rgb(177, 247, 177);
+}
+
+.red {
+  background-color: rgb(242, 142, 142);
+}

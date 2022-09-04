@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="game">
+      <header>
+        <h1>TIC TAC TOE</h1>
+        <div id="head_menu">
+          <div>
+            Skin:
+            <select name="" id="skin">
+              <option value="standard">Standard</option>
+              <option value="potter">Harry Potter</option>
+              <option value="starwars">Star Wars</option>
+            </select>
+          </div>
+          <div>
+            Gegner:
+            <select name="" id="enemy">
+              <option value="player">Spieler</option>
+              <option value="easy">CPU Leicht</option>
+              <option value="hard">CPU Schwer</option>
+            </select>
+            <input id="start" type="button" value="Start" />
+          </div>
+          <div>
+            Nächster Zug:
+            <img id="next" src="" alt="" />
+          </div>
+        </div>
+      </header>
+
+      <div class="grid">
+        <div id="0" class="gray">
+          <img src="300.png" class="field_img" pos="0" />
+        </div>
+        <div id="1" class="gray">
+          <img src="300.png" class="field_img" pos="1" />
+        </div>
+        <div id="2" class="gray">
+          <img src="300.png" class="field_img" pos="2" />
+        </div>
+
+        <div id="3" class="gray">
+          <img src="300.png" class="field_img" pos="3" />
+        </div>
+        <div id="4" class="gray">
+          <img src="300.png" class="field_img" pos="4" />
+        </div>
+        <div id="5" class="gray">
+          <img src="300.png" class="field_img" pos="5" />
+        </div>
+
+        <div id="6" class="gray">
+          <img src="300.png" class="field_img" pos="6" />
+        </div>
+        <div id="7" class="gray">
+          <img src="300.png" class="field_img" pos="7" />
+        </div>
+        <div id="8" class="gray">
+          <img src="300.png" class="field_img" pos="8" />
+        </div>
+      </div>
+    </div>
+
+    <script src="game.js"></script>
+  </body>
+</html>

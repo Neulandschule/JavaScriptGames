@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(55, 55, 55);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#game {
+    max-width: 640px;
+    margin: 10px auto;
+}
+
+header {
+    padding: 3px;
+    background-color: rgb(38, 38, 38);
+    color: white;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(38, 38, 38);
+    text-align: center;
+    padding: 15px;
+}
+
+main {
+    background-color: gray;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+#timer {
+    font-size: 30px;
+}
+
+#correct {
+    font-size: 30px;
+    text-align: right;
+}
+
+#calculation {
+    border: 1px solid black;
+    min-height: 30px;
+    min-width: 40%;
+    font-size: 24px;
+    padding: 10px;
+    background-color: rgb(229, 201, 165);
+    border-radius: 10px;
+    text-align: center;
+}
+

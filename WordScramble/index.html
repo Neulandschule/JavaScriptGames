@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word Scramble</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="game">
+      <header>
+        <h1>Word Scramble</h1>
+        <div id="menu">
+          <select id="wordlist"></select>
+          <input id="start_btn" type="button" value="START" />
+        </div>
+      </header>
+      <main>
+        <div id="word"></div>
+        <input
+          id="word_ip"
+          type="text"
+          placeholder="Gesuchtes Wort eingeben..."
+        />
+      </main>
+      <footer>
+        <span id="count_span"></span> von <span id="all_span"></span>
+        <div id="win_div" class="hidden">Super! Du hast es geschafft!</div>
+      </footer>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="game.js"></script>
+  </body>
+</html>

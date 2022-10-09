@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+}
+
+html {
+    background-color: black;
+}
+
+#game {
+    max-width: 800px;
+    margin: 10px auto;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+input, select {
+    width: 50px;
+    margin: 20px 3px 20px 20px;
+}
+
+#game_main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.square {
+    font-size: 75px;
+    /*border: 1px solid white;*/
+    min-width: 85px;
+    min-height: 85px;
+    margin: 5px;
+}
+
+.white {
+    background-color: white;
+}
+
+.trans_red {
+    background-color: red;
+    opacity: 0.6;
+}
+
+@media only screen and (max-width: 520px) {
+    .square {
+        font-size: 35px;
+        min-width: 40px;
+        min-height: 40px;
+    }
+}
+
+
+
+

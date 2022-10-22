@@ -1,0 +1,23 @@
+.dice {
+    border: 2px solid rgb(91, 91, 91);
+    border-radius: 10%;
+    aspect-ratio: 1 / 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(249,249,249,1) 34%, rgba(218,218,218,1) 68%, rgba(134,134,140,1) 95%, rgba(0,0,0,1) 98%);
+    box-shadow: 10px 10px 25px -4px #000000;
+}
+
+.dice .ninth .circle {
+  background-color: black;
+  height: 60%;
+  border-radius: 100%;
+  margin: 20%
+}
+
+.dice .ninth .none {
+    display: none;
+}
+
+
+

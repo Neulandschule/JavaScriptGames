@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(249, 210, 170);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#game {
+    max-width: 640px;
+    border: 8px solid rgb(39, 19, 1);
+    margin: 10px auto;
+}
+
+header {
+    background-color: rgb(39, 19, 1);
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(39, 19, 1);
+    color: white;
+    text-align: center;   
+}
+
+footer div {
+    min-height: 20px;
+    padding: 10px;
+}
+
+main {
+    background-color: rgb(33, 108, 33);
+}
+
+.row {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.flap {
+    display: flex;
+    height: 120px;
+    flex-direction: column;
+    justify-content: center;
+    flex: 100%;
+    border: 1px solid rgb(39, 19, 1);
+    font-size: 36px;
+    transition: 0.5s;
+}
+
+.flap.pointer:hover {
+    font-size: 40px;
+    box-shadow: 0px 6px 10px 1px #000000;
+}
+
+.flap.marked {
+    background-color: rgb(217, 139, 72);
+}
+
+.flap.light {
+    background-color: rgb(125, 65, 12);
+}
+
+.flap.dark {
+    background-color: rgb(39, 19, 1);
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.dices {
+    margin: 30px;
+    min-width: 100px;
+    max-width: 200px;
+}
+
+#roll_btn {
+    margin: 30px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    background-color: rgb(125, 65, 12);
+    cursor: pointer;
+    font-size: 24px;
+}
+
+#roll_btn:hover {
+    background-color: rgb(155, 81, 16);
+}
+
+
+
+

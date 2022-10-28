@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+}
+
+#game {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 640px;
+    margin: 10px auto;
+    border: 1px solid black;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;;
+}
+
+main {
+    display: flex;
+}
+
+#left {
+    width: 50%;
+    background-color: bisque; 
+}
+
+#right {
+    width: 50%;
+    background-color: green;
+    padding: 20px;
+}
+
+.box {
+    background-color: rgb(255, 209, 152);
+    padding: 5px;
+    margin: 10px;
+}
+
+.box div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+#player_list {
+    flex-direction: column;
+}
+
+.mark {
+    background-color: rgb(245, 177, 94);
+}
+
+
+
+
+
+#dice_display {
+    margin: 5px 20%;
+}
+
+
+#dice_controls div {
+    display: flex;
+    justify-content: center;
+    margin: 20px 15px;
+}
+
+
+#dice_display_sum {
+    font-size: 30px;
+}
+
+.none {
+    display: none;
+}
+
+
+
+

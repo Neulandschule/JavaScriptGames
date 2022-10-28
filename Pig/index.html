@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PIG</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="dice.css" />
+  </head>
+  <body>
+    <div id="game">
+      <header>
+        <h1>PIG - WÜRFELSPIEL</h1>
+      </header>
+
+      <main>
+        <div id="left">
+          <div class="box">
+            <h2>Spieleinstellung</h2>
+            <div>
+              <div>Zahl:</div>
+              <div id="div_bad_num"></div>
+              <div><input id="set_bad_num" type="button" value="ändern" /></div>
+            </div>
+            <div>
+              <div>Ziel:</div>
+              <div id="div_target"></div>
+              <div><input id="set_target" type="button" value="ändern" /></div>
+            </div>
+            <div>
+              <input id="add" type="button" value="Spieler hinzufügen" />
+              <input id="remove" type="button" value="Spieler entfernen" />
+            </div>
+          </div>
+
+          <div class="box">
+            <h2>Spielerliste</h2>
+            <div id="player_list">
+              <p>Bitte Spieler hinzufügen</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="right">
+          <div id="dice_display"></div>
+          <div id="dice_controls">
+            <div id="dice_display_sum">0</div>
+            <div>
+              <input id="roll" type="button" value="Würfeln" />
+              <input id="hold" type="button" value="Sichern" />
+              <input id="reset" class="none" type="button" value="Neustart" />
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="dice.js"></script>
+    <script src="game.js"></script>
+  </body>
+</html>

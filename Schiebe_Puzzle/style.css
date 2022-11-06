@@ -1,0 +1,18 @@
+#game {
+    max-width: 900px;
+    margin: 10px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#puzzle {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+}
+
+#puzzle img {
+    width: 100%;
+}

@@ -1,0 +1,43 @@
+.container {
+    max-width: 800px;
+    margin: 0px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: burlywood;
+    padding: 3px;;
+}
+
+
+.towers {
+    display: flex;
+}
+
+.tower {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+
+    padding: 10px;
+    border: 3px solid burlywood;
+    height: 350px;
+    
+
+}
+
+.disc {
+    background-color: rgb(224, 148, 48);
+    border-radius: 10px;
+    margin: 3px;
+}
+
+.disc:first-child {
+    margin-top: auto;
+}
+
+[draggable=true] {
+    cursor: pointer;
+}

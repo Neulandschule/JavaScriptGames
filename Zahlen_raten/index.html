@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Farben RGB</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="game">
+      <header>
+        <h1>Farben raten</h1>
+        <div>
+          <select name="" id="color-select">
+            <option value="primary">Grundfarben</option>
+            <option value="all">Alle Farben</option>
+          </select>
+          <input id="mix-btn" type="button" value="Mischen" />
+        </div>
+      </header>
+      <main>
+        <div id="left">
+          <div class="color"></div>
+          <div class="color"></div>
+          <div class="color"></div>
+        </div>
+        <div id="right">
+          <div class="color" draggable="true"></div>
+          <div class="color" draggable="true"></div>
+          <div class="color" draggable="true"></div>
+        </div>
+      </main>
+      <footer>
+        <input id="check-btn" type="button" value="Prüfen" />
+      </footer>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>

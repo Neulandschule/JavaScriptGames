@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopp-Spiel</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="game">
+      <h1>Stopp-Spiel</h1>
+
+      <div>
+        <img id="stopp_image" src="chronograph.png" alt="" />
+
+        <div>
+          <p id="random_num_display"></p>
+          <p id="display"></p>
+        </div>
+        <div class="stats">
+          <div>
+            Toleranz
+            <p id="tolerance_display"></p>
+          </div>
+          <div>
+            Differenz
+            <p id="difference_display"></p>
+          </div>
+          <div>
+            Punkte
+            <p id="points_display">0</p>
+          </div>
+        </div>
+
+        <input id="btn_start" type="button" value="Start" />
+        <input id="btn_p1" type="button" value="Stopp" />
+      </div>
+    </div>
+
+    <script src="Stopwatch.js"></script>
+    <script src="game.js"></script>
+  </body>
+</html>

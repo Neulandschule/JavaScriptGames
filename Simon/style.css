@@ -1,0 +1,83 @@
+#game {
+    max-width: 450px;
+    margin: 0px auto;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header,
+footer {
+    background-color: black;
+    color: gray;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.none {
+    display: none;
+}
+
+main {
+    padding: 20px;
+    background-color: rgb(44, 44, 44);
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.color-button {
+    width: 100px;
+    height: 100px;
+}
+
+.color-button.clickable {
+    cursor: pointer;
+}
+
+
+#green {
+    background-color: green;
+    border-radius: 100px 0 0 0;
+}
+
+#green.glow,
+#green:active {
+    background-color: rgb(0, 255, 0);
+    box-shadow: -5px -5px 40px 5px rgb(0, 250, 0);
+}
+
+#red {
+    background-color: rgb(142, 1, 1);
+    border-radius: 0 100px 0 0;
+}
+
+#red.glow,
+#red:active {
+    background-color: red;
+    box-shadow: 5px -5px 40px -5px red;
+}
+
+#yellow {
+    background-color: rgb(139, 139, 0);
+    border-radius: 0 0 0 100px;
+}
+
+#yellow.glow,
+#yellow:active {
+    background-color: yellow;
+    box-shadow: -5px 5px 40px 5px yellow;
+}
+
+#blue {
+    background-color: rgb(0, 0, 141);
+    border-radius: 0 0 100px 0;
+}
+
+#blue.glow,
+#blue:active {
+    background-color: blue;
+    box-shadow: 5px 5px 40px -5px blue;
+}
+
